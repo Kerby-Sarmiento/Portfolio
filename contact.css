@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 .navbar{
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(7, 7, 7, 0.3);
    padding: 23px;
 }
 .navdiv{
@@ -34,6 +34,7 @@ li a{
       color: white;
 }
 button{
+    background-color: rgba(245, 246, 247, 0.4);
      border-radius: 10px;
      padding: 12px 17px;
      border: 1px solid black;
@@ -42,14 +43,6 @@ button a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
-
-
-.second.text{
-    font-size: 47px;
-    text-align: center;
-    font-weight: bold;
-    color: black;
 }
 .textbox {
   display: flex;
@@ -63,9 +56,20 @@ form{
     justify-content: center;
 }
 input {
+    font-size: 23px;
+    background: transparent;
      margin: 15px;
      margin-bottom: 20px;
+     font-weight: bold;
+     color: rgb(17, 160, 243);
     }
+textarea{
+    height: 150px;
+    width: 1000px;
+    font-size: 20px;
+    background: transparent;
+    color: rgb(17, 160, 243);
+}    
 
 
 
