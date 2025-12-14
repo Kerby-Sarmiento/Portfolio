@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../assets/style.css">
-    <!-- Inline styles moved to the head section -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" href="../assets/pro.png">
+    <!-- Combined all style definitions here -->
     <style>
         body {
-            background-image: url('../assets/pro.png');
+            background-image: url('./assets/pro.png'); /* Ensure this path is correct */
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -17,35 +18,33 @@
     </style>
 </head>
 <body>
-    <!--header-->
+    <!-- header -->
     <header>
         <nav class="navbar">
             <div class="navdiv">
                 <div class="logo"><a href="#"><span style="color: red;">Ker</span>by</a></div>
                 <ul class="nav-links">
-                    <li><a href="../index.html"> Home </a></li>
-                    <li><a href="../page/about.html"><span style="color: red;">About</span></a></li>
-                    <li><a href="../page/Experience.html">Experience</a></li>
-                    <li><a href="../page/project.hmtl">project</a></li>
+                    <li><a href="index.html"><span style="color: red;">Home</span></a></li>
+                    <li><a href="./page/about.html">About</a></li>
+                    <li><a href="./page/Experience.html">Experience</a></li>
+                    <li><a href="./page/project.hmtl">project</a></li>
                 </ul>
-                <button><a href="../page/contact.html">Contact me</a></button>
+                <button><a href="./page/contact.html">Contact me</a></button>
             </div>
         </nav>
     </header>
 
-    <!--body content-->
+    <!-- body content -->
     <div class="container">
         <div class="text">
-            <p class="second text">
-                <b>I started my journey as a Front-End Developer since i was studying in Cordova Public College</b> 
-                <br>
-                <b>I learned a lot of different programming language during my College years.</b>
-            </p>
+            <p class="first text">Hi I'm <span style="color: rgb(219, 56, 27);">Kerby</span></p>
+            <p class="first text">a Frontend Developer</p>
         </div>
         <div class="picture">
-            <img src="../assets/me.png" alt="me" height="400px" width="400px">
+            <img src="./assets/me.png" alt="me" height="400px" width="400px">
         </div>
     </div>
-
+    
+    <!-- No content should be placed outside the body tag -->
 </body>
 </html>
